@@ -9,8 +9,8 @@ function Header(){
         <span className='text-2xl'>GeekFoods</span>
       </div>
       <ul className='flex gap-[1.5rem]'>
-        <li><a className='text-blue-500' href="#">Home</a></li>
-        <li><a className='hover:text-blue-500 font-medium' href="#">Quote</a></li>
+        <li><a className='hover:text-blue-500 font-medium' href="#">Home</a></li>
+        <li><a className='text-blue-500' href="#">Quotes</a></li>
         <li><a className='hover:text-blue-500 font-medium' href="#">Restaurants</a></li>
         <li><a className='hover:text-blue-500 font-medium' href="#">Foods</a></li>
         <li><a className='hover:text-blue-500 font-medium' href="#">Contact</a></li>

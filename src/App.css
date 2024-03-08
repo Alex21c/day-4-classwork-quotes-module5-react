@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --color-white: #FFFFFF;
 }
@@ -11,7 +14,12 @@
 }
 html{
   font-size:16px;
+  font-family: "Roboto", sans-serif;
+
 }
+
+
+
 
 @media screen and (max-width:1496px){
   section#HomeWithDescription{
@@ -58,6 +66,14 @@ html{
 }
 
 
+@media screen and (max-width:1151px){
+  div.individualQuote{
+    max-width:95%;
+
+  }
+
+}
+
 @media screen and (max-width:762px){
   header#header{
     flex-direction: column;
@@ -84,6 +100,8 @@ html{
     justify-content: center;
     
   }
+
+ 
 }
 @media screen and (max-width:572px){
   footer#footer>ul, footer#footer>div#socialMediaIcons{
@@ -91,8 +109,18 @@ html{
     grid-template-columns: 1fr 1fr;
   }
 
+  div.individualQuote{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 
+  }
+  div.wrapperBlockQuoteAndInterpretation{
+    width: 95%;
+  }
 }
+
+
 
 @media screen and (max-width:491px){
   header#header>ul{
